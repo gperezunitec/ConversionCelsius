@@ -16,7 +16,7 @@ export const Celsius = () => {
     const [inputValue, setInputValue] = useState(0);
 
     const onInputValue = (e) => {
-        setInputValue(e.target.value);
+        setInputValue(parseFloat(e.target.value));
     }
     
     
